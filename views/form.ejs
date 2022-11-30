@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+</head>
+<body>
+  <form method="post">
+    <!--Telefonos-->
+    <h2>Telefon bekérése:</h2>
+    <p>
+      <label>Név:</label>
+      <input type="text" name="telefonNev"> <br>
+    </p>
+
+    <p>
+      <label>Tipus:</label>
+      <input type="text" name="telefonTipus"> <br>
+    </p>
+
+    <p>
+      <label>Szín:</label>
+      <input type="color" name="telefonSzin"> <br>
+    </p>
+
+    <p>
+      <label>Ár:</label>
+      <input type="number" name="telefonAr"> <br>
+    </p>
+
+    <p>
+      <label>Akkumulátor állapota:(%)</label>
+      <input type="number" name="telefonAkku"> <br>
+    </p>
+
+    <p>
+      <label>Állapot:</label>
+        <select name="telefonAllapot" id="">
+          <option value="uj">Új</option>
+          <option value="ujszeru">Újszerű</option>
+          <option value="karcos">Karcos</option>
+        </select>
+    </p>
+
+    <p>
+      <input type="submit" value="OK">
+    </p>
+  </form>
+</body>
+</html>

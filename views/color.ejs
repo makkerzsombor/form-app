@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="background-color: <%= telefonSzin %>;
+        border: 5px solid <%= telefonSzin %>;
+        border-radius: 5px; 
+        width: 400px;">
+        <div style="background-color: rgb(255, 255, 255);
+        margin-top: 30px;
+        margin-bottom: 70px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 500px;">
+        <p>Telefon neve: <%= telefonNev %> </p>
+        <p>Telefon tipusa: <%= telefonTipus %></p>
+        <p>Telefon ára: <%= telefonAr %></p>
+        <p>Akkumulátor töltötsége: <%= telefonAkku %>%</p>
+        <p>Telefon állapota: <%= telefonAllapot %></p>
+        </div>
+    </div>
+</body>
+</html>
